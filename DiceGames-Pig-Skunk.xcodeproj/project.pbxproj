@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8F1422E29823D0A0055BAD8 /* DiceGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceGames-Pig-Skunk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F1423129823D0A0055BAD8 /* DiceGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGamesApp.swift; sourceTree = "<group>"; };
 		D8F1423329823D0A0055BAD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8F1423529823D0E0055BAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		D8F1422F29823D0A0055BAD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8F1422E29823D0A0055BAD8 /* DiceGames.app */,
+				D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 				D8F1423729823D0E0055BAD8 /* Preview Content */,
 			);
 			path = DiceGames;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		D8F1423729823D0E0055BAD8 /* Preview Content */ = {
 			isa = PBXGroup;
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8F1422D29823D0A0055BAD8 /* DiceGames */ = {
+		D8F1422D29823D0A0055BAD8 /* DiceGames-Pig-Skunk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames" */;
+			buildConfigurationList = D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-Pig-Skunk" */;
 			buildPhases = (
 				D8F1422A29823D0A0055BAD8 /* Sources */,
 				D8F1422B29823D0A0055BAD8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = DiceGames;
+			name = "DiceGames-Pig-Skunk";
 			productName = DiceGames;
-			productReference = D8F1422E29823D0A0055BAD8 /* DiceGames.app */;
+			productReference = D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames" */;
+			buildConfigurationList = D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-Pig-Skunk" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8F1422D29823D0A0055BAD8 /* DiceGames */,
+				D8F1422D29823D0A0055BAD8 /* DiceGames-Pig-Skunk */,
 			);
 		};
 /* End PBXProject section */
@@ -275,16 +275,18 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoeChesmore.DiceGames;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeChesmore.DiceGames.Multiple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.5;
 			};
 			name = Debug;
 		};
@@ -304,23 +306,25 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoeChesmore.DiceGames;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeChesmore.DiceGames.Multiple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.5;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames" */ = {
+		D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-Pig-Skunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8F1423A29823D0E0055BAD8 /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames" */ = {
+		D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-Pig-Skunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8F1423D29823D0E0055BAD8 /* Debug */,
