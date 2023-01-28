@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceGames-Pig-Skunk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F1422E29823D0A0055BAD8 /* DiceGames-3x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceGames-3x.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F1423129823D0A0055BAD8 /* DiceGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGamesApp.swift; sourceTree = "<group>"; };
 		D8F1423329823D0A0055BAD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8F1423529823D0E0055BAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		D8F1422F29823D0A0055BAD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */,
+				D8F1422E29823D0A0055BAD8 /* DiceGames-3x.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8F1422D29823D0A0055BAD8 /* DiceGames-Pig-Skunk */ = {
+		D8F1422D29823D0A0055BAD8 /* DiceGames-3x */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-Pig-Skunk" */;
+			buildConfigurationList = D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-3x" */;
 			buildPhases = (
 				D8F1422A29823D0A0055BAD8 /* Sources */,
 				D8F1422B29823D0A0055BAD8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "DiceGames-Pig-Skunk";
+			name = "DiceGames-3x";
 			productName = DiceGames;
-			productReference = D8F1422E29823D0A0055BAD8 /* DiceGames-Pig-Skunk.app */;
+			productReference = D8F1422E29823D0A0055BAD8 /* DiceGames-3x.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-Pig-Skunk" */;
+			buildConfigurationList = D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-3x" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8F1422D29823D0A0055BAD8 /* DiceGames-Pig-Skunk */,
+				D8F1422D29823D0A0055BAD8 /* DiceGames-3x */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-Pig-Skunk" */ = {
+		D8F1422929823D090055BAD8 /* Build configuration list for PBXProject "DiceGames-3x" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8F1423A29823D0E0055BAD8 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-Pig-Skunk" */ = {
+		D8F1423C29823D0E0055BAD8 /* Build configuration list for PBXNativeTarget "DiceGames-3x" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8F1423D29823D0E0055BAD8 /* Debug */,

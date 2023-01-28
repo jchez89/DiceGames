@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DiceGames-3x.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>DiceGames-Pig-Skunk.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
